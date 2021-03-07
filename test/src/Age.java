@@ -1,2 +1,3 @@
-public class Name {
+public class Age {
+    String version="版本1";
 }
