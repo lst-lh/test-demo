@@ -1,3 +1,3 @@
 public class Age {
-    String version="版本1";
+    String version="版本2";
 }
