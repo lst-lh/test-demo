@@ -9,7 +9,7 @@ public class test {
             FileInputStream fis=null;
             try{
                 fis=new FileInputStream(file);
-                //System.out.println(fis.available()); //读取文件长度
+                //System.out.println(fis.available());    //读取文件长度
                 //System.out.println(fis.read()); //读取文件并返回读取到的位置，若读完返回-1
                 byte []b=new byte[1024]; //创建一个byte数组存放读到的文件
                 int len=fis.read(b); //读取一部分内容放进数组
